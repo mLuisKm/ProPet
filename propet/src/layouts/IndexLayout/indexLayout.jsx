@@ -5,11 +5,11 @@ import styles from "./indexLayout.module.css"
 
 export default function IndexLayout({children}) {
     return (
-        <div classname={styles.container}>
+        <div className={styles.container}>
             <div className={styles.header}>
                 <Header/>
             </div>
-            <div className={styles.cover}>
+            <div className={styles.content}>
                 {children}
             </div>
             <div className={styles.footer}>
